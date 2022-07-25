@@ -111,6 +111,8 @@ def enableProguardInReleaseBuilds = false
  */
 def jscFlavor = 'org.webkit:android-jsc:+'
 
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+
 /**
  * Whether to enable the Hermes VM.
  *
